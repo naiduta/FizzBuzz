@@ -1,0 +1,24 @@
+<html >
+<head>
+  <title>FizzBuzz</title>
+</head>
+
+<body>
+ <div>
+	<h1>FizzBuzz</h1>
+
+    <form action="{{ url_for('FizzBuzz')}}"method="post">
+    	<input type="text" name="Number" placeholder="Number" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">FizzBuzz</button>
+    </form>
+
+   <br>
+
+   <br>
+   {{ output }}
+
+ </div>
+
+
+</body>
+</html>
